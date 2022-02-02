@@ -14,19 +14,19 @@ var GameStart = function(){
 	
 	/**************获取游戏图片并缓存*************/
 	// 得到飞机图片
-	this.plane_img = this.getImg('./images/myplane1.png');
+	this.plane_img = this.getImg('./image/myplane1.png');
 	// 得到背景图片
-	this.bg_img = [this.getImg('./images/bg_01.jpg'),
-		this.getImg('./images/bg_02.jpg'),
-		this.getImg('./images/bg_03.jpg'),
-		this.getImg('./images/bg_04.jpg'),
-		this.getImg('./images/bg_05.jpg')];
+	this.bg_img = [this.getImg('./image/bg_01.jpg'),
+		this.getImg('./image/bg_02.jpg'),
+		this.getImg('./image/bg_03.jpg'),
+		this.getImg('./image/bg_04.jpg'),
+		this.getImg('./image/bg_05.jpg')];
 	// 得到敌机图片
 	this.enemy_img = [this.getImg('./images/dj1.png'),
 		this.getImg('https://www.hualigs.cn/image/6069aad7c89fb.jpg'),
 		this.getImg('https://www.hualigs.cn/image/6069aa21e8777.jpg')];
 	// 得到我军子弹图片
-	this.bullet_img1 = this.getImg('./images/bullet1.png');
+	this.bullet_img1 = this.getImg('./image/bullet1.png');
 	// 得到爆炸图片
 	this.bomb_img = [this.getImg('https://z3.ax1x.com/2021/04/04/cK2P3T.gif'),
 		this.getImg('https://z3.ax1x.com/2021/04/04/cK2CCV.gif'),
