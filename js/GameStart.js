@@ -22,7 +22,7 @@ var GameStart = function(){
 		this.getImg('./image/bg_04.jpg'),
 		this.getImg('./image/bg_05.jpg')];
 	// 得到敌机图片
-	this.enemy_img = [this.getImg('./images/dj1.png'),
+	this.enemy_img = [this.getImg('./image/dj1.png'),
 		this.getImg('https://www.hualigs.cn/image/6069aad7c89fb.jpg'),
 		this.getImg('https://www.hualigs.cn/image/6069aa21e8777.jpg')];
 	// 得到我军子弹图片
